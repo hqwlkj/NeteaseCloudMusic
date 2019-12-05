@@ -8,17 +8,19 @@ class RoundedNetImage extends StatelessWidget {
   final double width;
   final double height;
   final double radius;
+  final BoxFit fit;
 
-  RoundedNetImage(this.url, {this.width, this.height, this.radius = 10});
+  RoundedNetImage(this.url, {this.width, this.height, this.radius = 10, this.fit});
 
   @override
   Widget build(BuildContext context) {
     return ClipRRect(
-      borderRadius: BorderRadius.all(Radius.circular(radius)),
+      borderRadius: BorderRadius.all(Radius.circular(ScreenUtil().setWidth(radius))),
       child: Utils.showNetImage(
         url,
-        width: ScreenUtil().setWidth(width),
-        height: ScreenUtil().setWidth(height),
+        width: width == null ? null : ScreenUtil().setWidth(width),
+        height: height == null ? null : ScreenUtil().setWidth(height),
+        fit: fit
       ),
     );
   }

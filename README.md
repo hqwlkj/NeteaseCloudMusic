@@ -2,6 +2,12 @@
 
 **@所有人：**
 
+**请仔细看README！**
+
+**请仔细看README！**
+
+**请仔细看README！**
+
 **该APP还在开发当中，具体开发完成哪些功能可以看下面的图片，没传图的就是还没开发完成！**
 
 **另外，本人也只是下班时间才能开发该APP，所以项目进度不会很快！请悉知！**
@@ -12,9 +18,23 @@
 
 <br/>
 
-下载体验：[点击下载，也可以扫描二维码](https://www.pgyer.com/qNNy)
+**最近有很多人问同样的问题：登录不上去，dio 报错！**
 
-<img src="https://www.pgyer.com/app/qrcode/qNNy" style="zoom:50%;" />
+**这种情况百分之九十九都是环境有问题，下面列出来可能出现的问题：**
+
+1. **base_url 不要使用 127.0.0.1，要使用自己本机的IP**
+2. **不要设置一些代理，导致端口不一致**
+3. **我这边的Flutter环境为 1.9.1 h6，请不要使用 1.10，1.10部分插件会出现问题，如使用请自行解决问题。**
+
+**请及时更新代码，因为不一定什么时候我就会修复一些以前的bug。**
+
+
+
+<br/>
+
+下载体验：[点击下载，也可以扫描二维码，由于蒲公英的关系，必须要输入密码，密码为 1](https://www.pgyer.com/qNNy)
+
+<img src="https://www.pgyer.com/app/qrcode/LkgQ" style="zoom:50%;" />
 
 <br/>
 
@@ -51,7 +71,9 @@
 | ![](http://pic.d3collection.cn/2019-10-13-125844.png) | ![](http://pic.d3collection.cn/2019-10-13-130202.png) | ![](http://pic.d3collection.cn/2019-10-13-130248.png) |
 | ![](http://pic.d3collection.cn/2019-10-14-151915.png) | ![](http://pic.d3collection.cn/2019-10-16-062303.png) | ![](http://pic.d3collection.cn/2019-10-22-074251.png) |
 | ![](http://pic.d3collection.cn/2019-10-30-063952.png) | ![](http://pic.d3collection.cn/2019-10-30-091021.png) | ![](http://pic.d3collection.cn/2019-11-06-081431.png) |
-| ![](http://pic.d3collection.cn/2019-11-08-083202.png) |                                                       |                                                       |
+| ![](http://pic.d3collection.cn/2019-11-08-083202.png) | ![](http://pic.d3collection.cn/2019-11-15-031201.png) | ![](http://pic.d3collection.cn/2019-11-15-031134.png) |
+| ![](http://pic.d3collection.cn/2019-11-15-031215.png) | ![](http://pic.d3collection.cn/2019-11-15-031227.png) | ![](http://pic.d3collection.cn/2019-11-15-031246.png) |
+| ![](http://pic.d3collection.cn/2019-11-15-031353.png) | ![](http://pic.d3collection.cn/2019-11-15-031408.png) | ![](http://pic.d3collection.cn/2019-11-27-061505.png) |
 
 ---
 
@@ -61,6 +83,10 @@
 | :-----------------------------------------------------: | :----: | ------------------------------------------------------- |
 |                                 ![](http://pic.d3collection.cn/2019-10-21-025741.jpg)                      |  ![](http://pic.d3collection.cn/2019-10-21-025618.jpg)    | ![](http://pic.d3collection.cn/2019-10-23-073549.gif) |
 | ![](http://pic.d3collection.cn/2019-10-28-112602.gif) | ![](http://pic.d3collection.cn/2019-11-08-072720.gif) |  |
+
+
+
+[![Stargazers over time](https://starchart.cc/fluttercandies/NeteaseCloudMusic.svg)](https://starchart.cc/fluttercandies/NeteaseCloudMusic) 
 
 
 

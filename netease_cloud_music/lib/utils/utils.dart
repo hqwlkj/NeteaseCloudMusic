@@ -12,18 +12,12 @@ class Utils {
 
   static Widget showNetImage(String url,
       {double width, double height, BoxFit fit}) {
-    return CachedNetworkImage(
-      imageUrl: url,
+    return Image(
+      image: ExtendedNetworkImageProvider(url, cache: true),
       width: width,
       height: height,
       fit: fit,
     );
-//    return Image(
-//      image: ExtendedNetworkImageProvider("$url", cache: true),
-//      fit: fit,
-//      width: width,
-//      height: height,
-//    );
   }
 
   /// 格式化歌词
